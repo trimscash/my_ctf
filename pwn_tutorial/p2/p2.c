@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int win() {
 	asm volatile("mov $0,%spl");  // 問題簡単のためにここでrspを0x10境界にする．https://sok1.hatenablog.com/entry/2022/01/17/050710

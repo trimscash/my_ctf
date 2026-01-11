@@ -8,6 +8,8 @@ all: p1
 chall: p1.c FORCE
 	$(CC) $(CFLAGS) -o $@ $<
 
-FORCE:
+
+clean:
+	rm -f p
 
 .PHONY: all FORCE
